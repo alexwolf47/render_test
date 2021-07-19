@@ -13,4 +13,6 @@ envVarGroups:
   - name: render_test
     envVars:
       - key: SECRET_KEY_BASE
+        sync: false
       - key: COPY_TEXT
+        sync: false
