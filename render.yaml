@@ -7,7 +7,9 @@ services:
     healthCheckPath: /
     envVars:
       - key: SECRET_KEY_BASE
+        sync: false
       - key: COPY_TEXT
+        sync: false
       - fromGroup: render_test
 
 envVarGroups:
