@@ -13,3 +13,11 @@ import "../css/app.scss"
 //     import socket from "./socket"
 //
 import "phoenix_html"
+
+const button = document.getElementById('test_javascript');
+
+button.addEventListener('click', testJs, false)
+
+function testJs() {
+    console.log("HELLO WORD")
+}

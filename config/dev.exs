@@ -21,6 +21,8 @@ config :render_test, RenderTestWeb.Endpoint,
     ]
   ]
 
+config :render_test, copy: System.get_env("COPY_TEXT")
+
 # ## SSL Support
 #
 # In order to use HTTPS in development, a self-signed

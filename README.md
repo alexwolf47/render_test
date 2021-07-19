@@ -1,5 +1,7 @@
 # RenderTest
 
+[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy)
+
 To start your Phoenix server:
 
   * Install dependencies with `mix deps.get`

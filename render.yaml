@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: render_test
+    env: elixir
+    dockerCommand: ./build.sh # optional (defaults to Dockerfile command)
+    healthCheckPath: /
+    envVars:
+      - key: SECRET_KEY_BASE
+      - key: COPY_TEXT

@@ -13,6 +13,8 @@ config :render_test, RenderTestWeb.Endpoint,
   url: [host: System.get_env("RENDER_EXTERNAL_HOSTNAME") || "localhost", port: 80],
   cache_static_manifest: "priv/static/cache_manifest.json"
 
+config :render_test, copy: System.get_env("COPY_TEXT")
+
 # Do not print debug messages in production
 config :logger, level: :info
 
